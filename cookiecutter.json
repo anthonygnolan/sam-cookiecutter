@@ -1,5 +1,6 @@
 {
-    "project_name": "Name of the project",
+    "Project name": "sam-app",
+    "project_slug": "{{ cookiecutter.Project name.lower().replace(' ', '_') }}",
     "runtime": "nodejs18.x",
     "architectures": {
         "value": []
