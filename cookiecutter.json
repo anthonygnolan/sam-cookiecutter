@@ -9,6 +9,6 @@
         ".gitignore"
     ],
     "__prompts__": {
-        "package_name": "Project name:"
+        "project_name": "Project name:"
     }
 }
