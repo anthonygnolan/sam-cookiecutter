@@ -1,11 +1,14 @@
 {
-    "Project name": "sam-app",
-    "project_slug": "{{ cookiecutter.Project name.lower().replace(' ', '_') }}",
+    "project_name": "sam-app",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "runtime": "nodejs18.x",
     "architectures": {
         "value": []
     },
     "_copy_without_render": [
         ".gitignore"
-    ]
+    ],
+    "__prompts__": {
+        "package_name": "Project name:"
+    }
 }
